@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="node_modules/suncalc/suncalc.js"></script>
+
+  <script type="text/javascript" src="test.js"></script>
+  <title>Document</title>
+  <style>
+  body {
+    background-color: #74C3E8;
+    height: 100%;
+  }
+    html {
+
+      height: 100%;
+    }
+    #sun {
+      width: 50px;
+      height: 50px;
+      background-color: yellow;
+      border-radius: 25px;
+      position: absolute;
+      top: 600px;
+      left: -60px
+
+    }
+    #cont {
+      float: left;
+      position: relative;
+    }
+    #circle {
+
+
+      width: 100%;
+      height: 100%;
+      transform-origin: center center;
+
+    }
+  </style>
+</head>
+<body id="background">
+  <h1 id="date">DATE</h1>
+  <div id="circle">
+    <div id="cont">
+    <div id="sun"></div>
+  </div>
+  </div>
+</body>
+</html>
